@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+/* bemm style convention */
+
 .App {
   width: 100vw;
   height: 100vh;
@@ -17,4 +19,13 @@
   color: #333;
   z-index: 1;
   text-align: center;
+}
+
+.todos {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 47.5%;
+  padding: 15px;
+  background-color: rgb(50, 195, 205);
 }
